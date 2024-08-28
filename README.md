@@ -33,14 +33,14 @@ target: floodprobability
 
 notebook: googlecolab
 you need to import train.csv file in google colab
-You can run the inserted file copy_of_test4.ipynb in google colab
-And get the necessary model downloaded from pkl or joblib
+You can run the inserted file DeepLearning (1).ipynb in google colab
+save the weights file and json file needed for the front end
 
 
 frontend: vs code
 You may install streamlit library using pip install streamlit
-Save your model in the working directory (used joblib)
-and open new terminal and type streamlit run flood.py
+Save your model weight and json files in the working directory
+and open new terminal and type streamlit run app.py
 If it does not redirect copy paste the localhost address given
 
 competition link: https://www.kaggle.com/competitions/playground-series-s4e5/data
